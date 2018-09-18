@@ -1,3 +1,2 @@
 # DelayedUnity
-Voorbeeld simulatie voor ons VR project 
-lol
+Voorbeeld simulatie voor ons VR project
