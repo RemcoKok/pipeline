@@ -12,6 +12,7 @@ cache:
     - $UNITY_DOWNLOAD_CACHE
 
     
+    
 before_install:
 - rvm get stable
 - chmod a+x ./Scripts/*.sh
@@ -32,7 +33,7 @@ before_deploy:
  deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
-  file_glob: true
+  file_glob: true 
   file: $(pwd)/Build/windows.zip
   skip_cleanup: true
   overwrite: true
